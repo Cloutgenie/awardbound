@@ -15,7 +15,7 @@ function spaFallback() {
 }
 
 export default defineConfig({
-  base: "/awardbound/",
+  base: process.env.VITE_BASE ?? "/awardbound/",
   plugins: [react(), spaFallback()],
   server: { host: true, port: 5173 },
   preview: { host: true, port: 4173 },
