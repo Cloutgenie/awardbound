@@ -8,8 +8,8 @@ Awardbound turns a Title III or sponsored-program award letter into a calendar o
 
 ## Routes
 
-- `/` — name, locked voice line, offices, fees, button into the desk
-- `/title-iii` — short Title III desk page and FAQs
+- `/` — thin shell: name, locked voice line, fees, button into the desk
+- `/title-iii` — short Title III desk page
 - `/app` — director desk (ingest, award, alerts, calendar, settings)
 
 ## What the desk does

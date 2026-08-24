@@ -15,15 +15,14 @@ Open `http://localhost:5173`.
 
 ## Click path
 
-1. **Landing (`/`)** — Name, H1 “Upload the NOA. Get the calendar.”, the locked sub-line, office list, and fees: Starter **$6,000/yr**, Growth **$15,000/yr**, Institution **$30–50k/yr**. Click **Open director desk**.
-2. **Title III (`/title-iii`)** — Short desk page and the four FAQs. Optional side trip.
-3. **Director desk (`/app`)** — Signed in as Inez Carr, Title III Director, Alabama A&M University. Nav: Grants, Alerts, Calendar, Settings.
-4. **Ingest** — Click **New award** (or **Load sample or upload** if the register is empty). On `/app/new`, click **Load Alabama A&M Title III sample award**. Do not wait on a PDF parser.
-5. **Extract** — Review award id `Awardbound-AAMU-T3-2024`, amount `$2,450,000`, four objectives, allowable activities, KPIs, owners, and cadence. Click **Create project**.
-6. **Grant desk (`/app/grants/awardbound-aamu-t3-2024`)** — Sample chip, objectives with owners and due dates, evidence slots (some missing), drawdown vs. award, upcoming reports. Gold appears only on at-risk dates.
-7. **Alerts (`/app/alerts`)** — Objective behind (STEM capacity), missing evidence, report due soon (quarterly memorandum).
-8. **Calendar (`/app/calendar`)** — The same dates on one register.
-9. **Settings (`/app/settings`)** — Mock identity. **Clear the local register** to start over.
+1. **Landing (`/`)** — Thin shell: Awardbound, “Upload the NOA. Get the calendar.”, fees (Starter **$6,000/yr**, Growth **$15,000/yr**, Institution **$30–50k/yr**), **Open director desk**. Shells owns further landing copy.
+2. **Director desk (`/app`)** — Signed in as Inez Carr, Title III Director, Alabama A&M University. Nav: Grants, Alerts, Calendar, Settings.
+3. **Ingest** — Click **New award** (or **Load sample or upload** if the register is empty). On `/app/new`, click **Load Alabama A&M Title III sample award**. Do not wait on a PDF parser.
+4. **Extract** — Review award id `Awardbound-AAMU-T3-2024`, amount `$2,450,000`, four objectives, allowable activities, KPIs, owners, and cadence. Click **Create project**.
+5. **Grant desk (`/app/grants/awardbound-aamu-t3-2024`)** — Sample chip, objectives with owners and due dates, evidence slots (some missing), drawdown vs. award, upcoming reports. Gold appears only on at-risk dates.
+6. **Alerts (`/app/alerts`)** — Objective behind (STEM capacity), missing evidence, report due soon (quarterly memorandum).
+7. **Calendar (`/app/calendar`)** — The same dates on one register.
+8. **Settings (`/app/settings`)** — Mock identity. **Clear the local register** to start over.
 
 Optional: on `/app/new`, upload any PDF. The desk attempts a text extract; if the file is scanned or empty, use the sample button.
 
