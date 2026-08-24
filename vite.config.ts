@@ -1,15 +1,29 @@
-import { copyFileSync, existsSync } from "node:fs";
-import { resolve } from "node:path";
+import { copyFileSync, existsSync, mkdirSync } from "node:fs";
+import { dirname, resolve } from "node:path";
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
+
+const spaDirectories = [
+  "title-iii",
+  "app",
+  "app/new",
+  "app/alerts",
+  "app/calendar",
+  "app/settings",
+];
 
 function spaFallback() {
   return {
     name: "spa-404",
     closeBundle() {
       const index = resolve(import.meta.dirname, "dist/index.html");
-      const fallback = resolve(import.meta.dirname, "dist/404.html");
-      if (existsSync(index)) copyFileSync(index, fallback);
+      if (!existsSync(index)) return;
+      copyFileSync(index, resolve(import.meta.dirname, "dist/404.html"));
+      for (const route of spaDirectories) {
+        const target = resolve(import.meta.dirname, "dist", route, "index.html");
+        mkdirSync(dirname(target), { recursive: true });
+        copyFileSync(index, target);
+      }
     },
   };
 }
