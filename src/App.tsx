@@ -10,10 +10,12 @@ import { Landing } from "./pages/Landing";
 import { Settings } from "./pages/Settings";
 import { TitleIII } from "./pages/TitleIII";
 
+const basename = import.meta.env.BASE_URL.replace(/\/$/, "") || undefined;
+
 export default function App() {
   return (
     <DeskProvider>
-      <BrowserRouter>
+      <BrowserRouter basename={basename}>
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/title-iii" element={<TitleIII />} />
