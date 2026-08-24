@@ -15,7 +15,7 @@ Open `http://localhost:5173`.
 
 ## Click path
 
-1. **Landing (`/`)** — Thin shell: Awardbound, “Upload the NOA. Get the calendar.”, fees (Starter **$6,000/yr**, Growth **$15,000/yr**, Institution **$30–50k/yr**), **Open director desk**. Shells owns further landing copy.
+1. **Landing (`/`)** — Locked copy: “Upload the NOA. Get the calendar.”, fees (Starter **$6,000/yr**, Growth **$15,000/yr**, Institution **$30–50k/yr**), **Open director desk**. Optional: **Title III desk** → `/title-iii`.
 2. **Director desk (`/app`)** — Signed in as Inez Carr, Title III Director, Alabama A&M University. Nav: Grants, Alerts, Calendar, Settings.
 3. **Ingest** — Click **New award** (or **Load sample or upload** if the register is empty). On `/app/new`, click **Load Alabama A&M Title III sample award**. Do not wait on a PDF parser.
 4. **Extract** — Review award id `Awardbound-AAMU-T3-2024`, amount `$2,450,000`, four objectives, allowable activities, KPIs, owners, and cadence. Click **Create project**.
