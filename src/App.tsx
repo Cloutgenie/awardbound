@@ -8,6 +8,7 @@ import { Grants } from "./pages/Grants";
 import { Ingest } from "./pages/Ingest";
 import { Landing } from "./pages/Landing";
 import { Settings } from "./pages/Settings";
+import { TitleIII } from "./pages/TitleIII";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Landing />} />
+          <Route path="/title-iii" element={<TitleIII />} />
           <Route path="/app" element={<AppShell />}>
             <Route index element={<Grants />} />
             <Route path="new" element={<Ingest />} />

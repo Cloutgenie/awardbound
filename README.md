@@ -1,12 +1,18 @@
 # Awardbound
 
-Desk software for HBCU Title III and sponsored-programs offices.
-
 **Upload the NOA. Get the calendar.**
 
-Awardbound is an original prototype. It is not a copy of an existing grant-management product, and it is not Awarded.com. The buyer mock is the Title III Director at Alabama A&M University.
+Desk software for HBCU Title III and sponsored-programs offices. Buyer mock: Title III Director at Alabama A&M University.
 
-## What it does
+Awardbound turns a Title III or sponsored-program award letter into a calendar of objectives, deadlines, drawdowns, and evidence.
+
+## Routes
+
+- `/` — name, locked voice line, offices, fees, button into the desk
+- `/title-iii` — short Title III desk page and FAQs
+- `/app` — director desk (ingest, award, alerts, calendar, settings)
+
+## What the desk does
 
 - Ingest a notice of award PDF, or load a labeled Alabama A&M Title III **sample** award
 - Extract amount, objectives, deadlines, allowable activities, KPIs, reporting cadence, and owners
@@ -20,6 +26,10 @@ Vite, React, TypeScript. Client-side state only (`localStorage`). No authenticat
 ## Brand
 
 Navy `#1B2A4A`, paper `#F4EFE6`, ink `#111827`. Alert gold `#C4A35A` is used only on deadlines and at-risk dates. The mark is a bound folio / seal stamp plus the Awardbound wordmark.
+
+## Fees
+
+Starter $6,000/yr · Growth $15,000/yr · Institution $30–50k/yr
 
 ## Scripts
 
