@@ -2,16 +2,24 @@
 
 Prototype for a Title III Director at Alabama A&M University. Nothing here is a live federal award. The sample register is labeled **Sample**.
 
-## Preview URL
+## Live URL
 
-A hosted preview is not published from this environment. After merge, deploy the `dist` output as a static SPA, or run locally:
+https://cloutgenie.github.io/awardbound/
+
+Public GitHub Pages. No login. Routes:
+
+- Landing: https://cloutgenie.github.io/awardbound/
+- Title III: https://cloutgenie.github.io/awardbound/title-iii
+- Director desk: https://cloutgenie.github.io/awardbound/app
+
+Local:
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open `http://localhost:5173`.
+Dev server uses the `/awardbound/` base. Open `http://localhost:5173/awardbound/`.
 
 ## Click path
 

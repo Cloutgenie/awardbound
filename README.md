@@ -44,4 +44,6 @@ npm run preview
 
 Fictional five-year strengthening award, id `Awardbound-AAMU-T3-2024`. Rounded demo dollars. It is not a real federal notice of award.
 
+Live demo: https://cloutgenie.github.io/awardbound/
+
 See [DEMO.md](./DEMO.md) for the click path.
